@@ -17,7 +17,7 @@ const ResetPassword = () => {
 
     var config = {
       method: "post",
-      url: "https://passwordreset-api.herokuapp.com/api/user/forgotPassword",
+      url: "https://passwordresetapinew.herokuapp.com/api/user/forgotPassword",
       headers: {
         "Content-Type": "application/json",
       },
