@@ -1,6 +1,6 @@
-import React, { useState, useContext, createContext } from "react";
+import React, { useState } from "react";
 import axios from "axios";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 const ForgetPassword = () => {
   const navigate = useNavigate();
   //const UserContext = createContext();
@@ -34,7 +34,7 @@ const ForgetPassword = () => {
       .catch(function (error) {
         console.log(error);
       });
-    navigate("/login");
+    navigate("/success");
   };
 
   return (

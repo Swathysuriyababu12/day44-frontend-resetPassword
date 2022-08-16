@@ -1,5 +1,5 @@
 import Alert from "react-bootstrap/Alert";
-import NaviBar from "./navbar";
+
 import "./app.css";
 
 const Welcome = () => {
