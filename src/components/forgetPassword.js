@@ -34,7 +34,7 @@ const ForgetPassword = () => {
       .catch(function (error) {
         console.log(error);
       });
-    navigate("/success");
+    navigate("/login");
   };
 
   return (
