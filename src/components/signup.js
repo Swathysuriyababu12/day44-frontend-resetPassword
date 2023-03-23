@@ -17,7 +17,7 @@ const SignUp = () => {
 
     var config = {
       method: "post",
-      url: "https://passwordresetapinew.herokuapp.com/api/user",
+      url: "https://passwordreset-9ny5.onrender.com/api/user",
       headers: {
         "Content-Type": "application/json",
       },
